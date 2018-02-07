@@ -1,0 +1,10 @@
+/*STYLE SHEET FOR INDEX.HTML - CRYSTAL GAME*/
+
+h1{
+	background-color: lightgrey;
+	border: dashed 0.2px grey;
+}
+.instructions{
+	text-align: center;
+	background-color: lightgrey;
+}

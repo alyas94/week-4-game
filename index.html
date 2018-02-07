@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>crystals game</title>
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+	<!-- Bootstrap CDN -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+	<div class ="navbar">
+		<h1>CRYSTALS COLLECTOR!</h1>
+	</div>
+
+	<div class= "row">
+		<div class= "col-sm-6 text-center rounded-circle">
+			<div class = "instructions">
+				<p>You will be given a random number at the start of the game.
+				</p>
+				<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score</p>
+				<p>
+				You win the game by matching your total score to the random number. you lose the game if your total score goes above the random number.</p>
+				<p>The value of each crystal is hidden from you until you click on it</p>
+				<p>Each time the game starts, the game will change the values of each crystal. GOOD LUCK!</p>
+			</div>
+		</div>
+	</div>
+
+	<div class = "row">
+		<div class = "col-sm-3 randomNumber"></div>
+		<div class = "col-sm-3">
+			<p id = "wins"></p>
+			<p id = "losses"></p>
+		</div>
+	</div>
+
+	<div class = "row">
+		<div class = "col-sm-6 crystals"></div>
+	</div>
+
+	<div class = "row">
+		<div class = "col-sm-6 totalScore"></div>
+	</div>
+
+
+
+
+
+</body>
+</html>
