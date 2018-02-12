@@ -1,21 +1,35 @@
 /*STYLE SHEET FOR INDEX.HTML - CRYSTAL GAME*/
 
 h1{
-	background-color: lightgrey;
-	border: dashed 0.2px grey;
+	background-color: #98fef5cf;
+	border: dashed 0.2px #e27272;
 }
 .instructions{
 	text-align: center;
-	background-color: lightgrey;
+	background-color: #98fef5eb;
 }
 .crystalImage{
 	width: 100px;
 	height:100px;
 	background-color: lightpink;
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+.win-losses, #randomNumber{
+	background-color: #98fef5eb;	
 }
 #randomNumber{
 	font-size: 50px;
 }
 body{
 	text-align: center;
+	background: url("../images/crystal-background.jpg");
+	background-repeat: repeat;
+	background-size: cover;
+}
+.score-line{
+	font-size: 20px;
+}
+.score-comment, #totalScore{
+	background-color: #98fef5cf;
 }

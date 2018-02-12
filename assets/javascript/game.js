@@ -8,6 +8,8 @@ var randomNumbers = [0, 0, 0, 0]; //crystal value
 var wins = 0;
 var losses = 0;
 
+$("#totalScore").text(totalScore);
+
 // first randomize crystal values & guessing number
 function randomize() {
 	//Display random number to be guessed to screen
