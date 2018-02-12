@@ -8,3 +8,14 @@ h1{
 	text-align: center;
 	background-color: lightgrey;
 }
+.crystalImage{
+	width: 100px;
+	height:100px;
+	background-color: lightpink;
+}
+#randomNumber{
+	font-size: 50px;
+}
+body{
+	text-align: center;
+}
